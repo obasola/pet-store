@@ -1,6 +1,7 @@
 export default [
   {
     name: 'Sheeba',
+    species: 'cat',
     breed: 'LaPerm',
     gender: 'Female',
     age: 7,
@@ -11,6 +12,7 @@ export default [
   },
   {
     name: 'Bobby',
+    species: 'cat',
     breed: 'Manx',
     gender: 'Male',
     age: 8,
@@ -21,6 +23,7 @@ export default [
   },
   {
     name: 'Roger',
+    species: 'cat',
     breed: 'Burmese',
     gender: 'Male',
     age: 9,
@@ -31,6 +34,7 @@ export default [
   },
   {
     name: 'Fancy',
+    species: 'cat',
     breed: 'American Bobtail',
     gender: 'Female',
     age: 7,
@@ -41,6 +45,7 @@ export default [
   },
   {
     name: 'Frankie',
+    species: 'cat',
     breed: 'American Wirehair',
     gender: 'M',
     age: 4,
@@ -51,6 +56,7 @@ export default [
   },
   {
     name: 'BenGali',
+    species: 'cat',
     breed: 'Bengal',
     gender: 'Male',
     age: 5,
@@ -61,6 +67,7 @@ export default [
   },
   {
     name: 'Betsy',
+    species: 'cat',
     breed: 'Burmese',
     gender: 'Female',
     age: 3,
@@ -71,6 +78,7 @@ export default [
   },
   {
     name: "BillyBob",
+    species: 'cat',
     breed: "American Shorthair",
     gender: "Male",
     age: 12,
@@ -81,6 +89,7 @@ export default [
   },
   {
     name: 'Sandy',
+    species: 'cat',
     breed: 'Russian Blue',
     gender: 'Female',
     age: 7,
@@ -91,6 +100,7 @@ export default [
   },
   {
     name: 'Sammy',
+    species: 'cat',
     breed: 'Pixiebob',
     gender: 'Male',
     age: 2,
@@ -101,6 +111,7 @@ export default [
   },
   {
     name: 'Hillary',
+    species: 'cat',
     breed: 'Ragamiffin',
     gender: 'female',
     age: 5,

@@ -1,6 +1,7 @@
 export default [
   {
     name: "Samson",
+    species: 'dog',
     breed: "Airdale Terrier",
     gender: "Male",
     age: 4,
@@ -12,6 +13,7 @@ export default [
 
   {
     name: "Shelly",
+    species: 'dog',
     breed: "American Staffordshire Terrier",
     gender: "Female",
     age: 2,
@@ -22,6 +24,7 @@ export default [
   },
   {
     name: "Bella",
+    species: 'dog',
     breed: "Basenji",
     gender: "Female",
     age: 3,
@@ -32,6 +35,7 @@ export default [
   },
   {
     name: "Snoopy",
+    species: 'dog',
     breed: "Beagle",
     gender: "Female",
     age: 5,
@@ -42,6 +46,7 @@ export default [
   },
   {
     name: "Rascal",
+    species: 'dog',
     breed: "Coon Hound",
     gender: "Female",
     age: 3,
@@ -52,6 +57,7 @@ export default [
   },
   {
     name: "Sounder",
+    species: 'dog',
     breed: "Bluetick Coon Hound",
     gender: "Male",
     age: 6,
@@ -62,6 +68,7 @@ export default [
   },
   {
     name: "Pretti",
+    species: 'dog',
     breed: "Dachshund",
     gender: "Female",
     age: 6,
@@ -72,6 +79,7 @@ export default [
   },
   {
     name: "Bob",
+    species: 'dog',
     breed: "Bull Dog",
     gender: "Male",
     age: 7,
@@ -82,6 +90,7 @@ export default [
   },
   {
     name: "",
+    species: 'dog',
     breed: "French Bulldog",
     gender: "Female",
     age: 3,
