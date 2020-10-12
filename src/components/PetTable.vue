@@ -9,9 +9,8 @@
             <button class="btn btn-primary floatRight" @click="toggleDogForm()">New Dog</button>
         </div>
         <b-form @submit="handleSubmit" v-if="showForm">
-            <b-form-group id="input-group-1" label="Pet's Name:" label-for="input-1">
-                <b-form-input id="input-1" v-model="formData.name" required placeholder="Enter name"></b-form-input>
-            </b-form-group>
+            <label for="input-1">Pet's Name:</label>
+            <b-form-input id="input-1" v-model="formData.name" required placeholder="Enter name"></b-form-input>
 
             <b-form-group id="input-group-3" label="Pet's Age:" label-for="input-3">
                 <b-form-input id="input-3" type="number" v-model="formData.age" required placeholder="Enter age"></b-form-input>
@@ -70,10 +69,10 @@ export default {
                 image: "",
                 notes: "",
                 weight: 0,
-                species: "cats"
+                species: this.pets
             },
             computed: {
-                ...mapState(["cats"])
+                ...mapState([this.pets])
             },
 
             methods: {
